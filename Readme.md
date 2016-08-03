@@ -1,6 +1,7 @@
 # Учебный проект «Барбершоп»
 
 * Студент: [Михаил Ленков](https://up.htmlacademy.ru/htmlcss/14/user/465).
+* Наставник: [Сергей Зубов](https://htmlacademy.ru/profile/id208340).
 
 ---
 
