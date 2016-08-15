@@ -1,0 +1,20 @@
+body {
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "PTSans", serif;
+    color: black;
+    font-weight: normal;
+
+    /*background-color: gray;*/
+    /*background: #000000 url("../img/barbershop-index.jpg") no-repeat 50% 0;!* tmp *!*/
+    /*background: #000000 url("../img/product.jpg") no-repeat 50% 0;!* tmp *!*/
+    /*background: #000000 url("../img/product-search.jpg") no-repeat 50% 0;!* tmp *!*/
+}
+
+h1 {
+    font-size: 30px;
+    line-height: 42px;
+    font-family: "PTSans", serif;
+    color: black;
+    font-weight: bold;
+}
