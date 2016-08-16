@@ -18,3 +18,167 @@ h1 {
     color: black;
     font-weight: bold;
 }
+
+.hide {
+    display: none;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.top-panel {
+    margin-bottom: 60px;
+    height: 72px; /* TO_DO - min */
+
+    background-color: black; /* tmp */
+}
+
+.top-panel .logo-small {
+    float: left;
+}
+
+.main-navigation {
+    float: left;
+    width: 780px;
+}
+
+.main-navigation li {
+    display: inline;
+}
+
+.breadcrumbs li {
+    display: inline;
+}
+
+.pagination {
+    margin-bottom: 50px;
+}
+.pagination li {
+    display: inline;
+}
+
+.user-block {
+    float: right;
+    width: 140px;
+}
+
+.index-header {
+    margin-bottom: 85px;
+}
+
+.main-logo {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    width: 368px;
+    height: 204px;
+    padding-left: 8px;
+}
+
+.feature-item {
+    float: left;
+    width: 300px;
+    box-sizing: border-box;
+    margin-right: 20px;
+
+    min-height: 158px;
+}
+
+.feature-item:last-child {
+    margin-right: 0;
+}
+
+.index-content {
+    margin-bottom: 35px;
+    background: white;
+    padding: 55px 80px;
+}
+
+.index-content-left {
+    float: left;
+    width: 380px;
+}
+
+.index-content-right {
+    float: right;
+    width: 300px;
+}
+
+.footer {
+    padding-top: 60px;
+    padding-bottom: 50px;
+
+    background-color: darkgray; /* tmp */
+}
+
+.footer--index-page {
+    margin-top: 65px;
+}
+
+.footer-contacts {
+    float: left;
+    width: 380px;
+}
+
+.footer-social {
+    float: left;
+    width: 140px;
+}
+
+.footer-copyright {
+    float: right;
+    width: 140px;
+}
+
+
+
+/* === PRODUCT === */
+
+.header--shop {
+    height: 70px; /* TO_DO - min */
+    margin-bottom: 60px;
+}
+
+.product-content-left {
+    float: left;
+    width: 460px;
+}
+
+.product-content-right {
+    float: right;
+    width: 390px;
+}
+
+/* === PRODUCT-SEARCH === */
+
+.search-content-left {
+    float: left;
+    width: 220px;
+}
+
+.search-content-right {
+    float: right;
+    width: 700px;
+}
+
+.product-preview-item {
+    display: inline-block;
+    width: 220px;
+    min-height: 286px;
+    vertical-align: top;
+
+    margin-right: 20px;
+}
+
+.product-preview-item:nth-child(3n) {
+    margin-right: 0;
+}

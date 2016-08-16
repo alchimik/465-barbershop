@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Средства для ухода. - Барбершоп «Бородинский»</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<div class="top-panel">
-    <div class="container">
-        <a href="index.html">
-            <img class="logo-small" src="img/logo-small.jpg">
+<section class="top-panel">
+    <div class="container clearfix">
+        <a class="logo-small" href="index.html">
+            <img src="img/top-panel__small-logo.png" width="111" height="24">
         </a>
         <nav class="main-navigation">
             <ul>
@@ -24,9 +26,9 @@
             <a class="login" href="#">Вход</a>
         </div>
     </div>
-</div>
+</section>
 
-<header class="container">
+<header class="header--shop container">
     <h1>Средства для ухода</h1>
 
     <nav class="breadcrumbs">
@@ -38,7 +40,7 @@
     </nav>
 </header>
 
-<div class="container search-content">
+<div class="container search-content clearfix">
     <div class="search-content-left">
         <form class="search-form">
             <fieldset>
@@ -113,10 +115,11 @@
         </form>
     </div>
 
-    <div class="search-content-right product-preview-list">
-        <article class="product-preview-item">
+    <div class="search-content-right product-preview-list"><!--
+        NO SPACE
+        --><article class="product-preview-item">
             <a href="#">
-                <img class="product-preview-img" src="img/xxx">
+                <img class="product-preview-img" src="img/product-search/photo-1.jpg">
             </a>
 
             <h2>
@@ -130,11 +133,11 @@
                 <div class="price">2 900 руб.</div>
                 <a class="buy btn" href="#">Купить</a>
             </section>
-        </article>
-
-        <article class="product-preview-item">
+        </article><!--
+        NO SPACE
+        --><article class="product-preview-item">
             <a href="#">
-                <img class="product-preview-img" src="img/xxx">
+                <img class="product-preview-img" src="img/product-search/photo-2.jpg">
             </a>
 
             <h2>
@@ -148,11 +151,11 @@
                 <div class="price">750 руб.</div>
                 <a class="buy btn" href="#">Купить</a>
             </section>
-        </article>
-
-        <article class="product-preview-item">
+        </article><!--
+        NO SPACE
+        --><article class="product-preview-item">
             <a href="#">
-                <img class="product-preview-img" src="img/xxx">
+                <img class="product-preview-img" src="img/product-search/photo-3.jpg">
             </a>
 
             <h2>
@@ -166,11 +169,11 @@
                 <div class="price">290 руб.</div>
                 <a class="buy btn" href="#">Купить</a>
             </section>
-        </article>
-
-        <article class="product-preview-item">
+        </article><!--
+        NO SPACE
+        --><article class="product-preview-item">
             <a href="#">
-                <img class="product-preview-img" src="img/xxx">
+                <img class="product-preview-img" src="img/product-search/photo-4.jpg">
             </a>
 
             <h2>
@@ -184,11 +187,29 @@
                 <div class="price">500 руб.</div>
                 <a class="buy btn" href="#">Купить</a>
             </section>
-        </article>
-
-        <article class="product-preview-item">
+        </article><!--
+        NO SPACE
+        --><article class="product-preview-item">
             <a href="#">
-                <img class="product-preview-img" src="img/xxx">
+                <img class="product-preview-img" src="img/product-search/photo-5.jpg">
+            </a>
+
+            <h2>
+                <a href="#">
+                    <span class="product-preview-name">Гель для волос</span>
+                    <span class="product-preview-producer">«American Crew»</span>
+                </a>
+            </h2>
+
+            <section class="buying">
+                <div class="price">300 руб.</div>
+                <a class="buy btn" href="#">Купить</a>
+            </section>
+        </article><!--
+        NO SPACE
+        --><article class="product-preview-item">
+            <a href="#">
+                <img class="product-preview-img" src="img/product-search/photo-6.jpg">
             </a>
 
             <h2>
@@ -202,8 +223,9 @@
                 <div class="price">3 900 руб.</div>
                 <a class="buy btn" href="#">Купить</a>
             </section>
-        </article>
-
+        </article><!--
+        NO SPACE
+        -->
         <ul class="pagination">
             <li><a href="#">1</a></li>
             <li><a class="active">2</a></li>
@@ -213,8 +235,8 @@
     </div>
 </div>
 
-<footer>
-    <div class="container">
+<footer class="footer">
+    <div class="container clearfix">
         <section class="footer-contacts">
             Барбершоп «Бородинский»<br>
             Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
